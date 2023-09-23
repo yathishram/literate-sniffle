@@ -10,7 +10,7 @@ const taskValidationRules = [
         }
         return true;
     }),
-    body('flag').custom(value => {
+    body('flag').optional().custom(value => {
        if(typeof value !== 'boolean'){
            throw new Error('Flag must be a boolean');
        }

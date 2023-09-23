@@ -1,68 +1,60 @@
 {
   "tasks": [
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": true,
-      "id": "cba429da-f29f-40cb-8512-e469efab39ec",
-      "created_at": "2023-09-23T18:09:33.455Z",
-      "priority": "low"
+      "title": "Implement Authentication",
+      "description": "Set up JWT authentication for the Task Management API. Ensure users can log in and obtain a token to access protected routes.",
+      "priority": "high",
+      "id": "cdda40f7-d449-4d1d-b232-c962af129057",
+      "created_at": "2023-09-23T18:58:13.423Z",
+      "flag": true
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": true,
-      "id": "50450c30-3d48-4ad8-ad26-3fe17da74d4e",
-      "created_at": "2023-09-23T18:09:34.107Z",
-      "priority": "low"
+      "title": "Design Database Schema",
+      "description": "Create a relational database schema for storing user details and their respective tasks. Consider scalability and normalization.",
+      "priority": "medium",
+      "id": "18b5deee-7e44-4e91-9691-538ff8f45845",
+      "created_at": "2023-09-23T18:58:40.276Z",
+      "flag": false
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "6adc189d-d85c-42e7-b3bc-63ee5bdccb27",
-      "created_at": "2023-09-23T18:09:34.655Z",
-      "priority": "low"
+      "title": "Write API Documentation",
+      "description": "Document all the available endpoints, their request format, and their responses. Use tools like Postman or Swagger.",
+      "priority": "low",
+      "id": "5f949c22-5ffe-4fdc-9528-dac3875b491b",
+      "created_at": "2023-09-23T18:58:46.975Z",
+      "flag": false
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "c1b92e85-eacd-4445-8d85-1c1ce41b82a9",
-      "created_at": "2023-09-23T18:09:35.223Z",
-      "priority": "low"
+      "title": "Set up Continuous Integration",
+      "description": "Use GitHub Actions or Jenkins to set up a CI/CD pipeline. Automate testing and deployment processes.",
+      "priority": "medium",
+      "id": "9e1bd392-d7e8-488d-bb95-d94fbd4570d0",
+      "created_at": "2023-09-23T18:58:55.108Z",
+      "flag": false
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "cd635fe7-625d-4bc1-8c17-4ae8777db767",
-      "created_at": "2023-09-23T18:09:35.876Z",
-      "priority": "low"
+      "title": "Frontend UI/UX Design",
+      "description": "Design a responsive and user-friendly interface for the task management application. Ensure compatibility across all devices.",
+      "priority": "high",
+      "id": "aab0399a-7496-474b-8628-88034c14ef86",
+      "created_at": "2023-09-23T18:59:04.643Z",
+      "flag": false
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "8892d9be-fb28-42c8-bfc6-26ddc3100dbb",
-      "created_at": "2023-09-23T18:09:36.513Z",
-      "priority": "low"
+      "title": "Implement Search Feature",
+      "description": "Users should be able to search for tasks using keywords. Use algorithms that can handle fuzzy searching.",
+      "priority": "medium",
+      "id": "83b5c662-f70e-4d45-af9c-2e8c87fa0e36",
+      "created_at": "2023-09-23T18:59:18.434Z",
+      "flag": false
     },
     {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "94a93964-2733-4eb6-87cc-ca699731396d",
-      "created_at": "2023-09-23T18:09:37.186Z",
-      "priority": "low"
-    },
-    {
-      "title": "Make Post Reqeust Work",
-      "description": "Validations should work",
-      "flag": false,
-      "id": "1610632a-7432-41f5-b30c-3092aa3b673c",
-      "created_at": "2023-09-23T18:09:37.906Z",
-      "priority": "low"
+      "title": "Optimize Server Performance",
+      "description": "Profile the server to identify bottlenecks. Optimize database queries and ensure the server can handle high traffic.",
+      "priority": "high",
+      "id": "47c4ac90-8f06-4b35-a04f-8d87e1a36ef8",
+      "created_at": "2023-09-23T18:59:25.732Z",
+      "flag": false
     }
   ]
 }

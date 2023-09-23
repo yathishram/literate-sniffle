@@ -44,6 +44,9 @@ app.post("/tasks", createTaskValidation, (req, res) => {
     if (!task.priority) {
       task.priority = "low";
     }
+    if (!task.flag) { 
+        task.flag = false;
+    }
     addTask(task);
     res.status(201).json({
       message: "Task created successfully",
